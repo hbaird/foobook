@@ -1,6 +1,8 @@
 <?php
 
+
 return array(
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -13,7 +15,9 @@ return array(
 	|
 	*/
 
+
 	'debug' => false,
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -26,7 +30,9 @@ return array(
 	|
 	*/
 
+
 	'url' => 'http://localhost',
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -39,7 +45,9 @@ return array(
 	|
 	*/
 
+
 	'timezone' => 'UTC',
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,7 +60,9 @@ return array(
 	|
 	*/
 
+
 	'locale' => 'en',
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -65,7 +75,9 @@ return array(
 	|
 	*/
 
+
 	'fallback_locale' => 'en',
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,9 +90,12 @@ return array(
 	|
 	*/
 
-	'key' => '6ceu0AolyLHk4IBx6QlCKfQ6vjJgoFLD',
+
+	'key' => '6sFiA84gFHFsI7tdDK1b3SnWHgIBIUqQ',
+
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +108,9 @@ return array(
 	|
 	*/
 
+
 	'providers' => array(
+
 
 		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
 		'Illuminate\Auth\AuthServiceProvider',
@@ -122,7 +139,9 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+
 	),
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -135,7 +154,9 @@ return array(
 	|
 	*/
 
+
 	'manifest' => storage_path().'/meta',
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -148,7 +169,9 @@ return array(
 	|
 	*/
 
+
 	'aliases' => array(
+
 
 		'App'             => 'Illuminate\Support\Facades\App',
 		'Artisan'         => 'Illuminate\Support\Facades\Artisan',
@@ -188,7 +211,10 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+		'Pre'			  => 'Paste\Pre',
+
 
 	),
+
 
 );
