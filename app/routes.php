@@ -1,15 +1,5 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
-*/
 
 // Home page
 Route::get('/', function() {
@@ -17,6 +7,8 @@ Route::get('/', function() {
 
 
 });
+
+
 
 
 // List books / search results of books
@@ -50,6 +42,12 @@ Route::get('/list/{format?}', function($format = 'html') {
 });
 
 
+
+
+
+
+
+
 // Display edit form
 Route::get('/edit/{title}', function() {
 
@@ -64,6 +62,12 @@ Route::post('/edit/{title}', function() {
 });
 
 
+
+
+
+
+
+
 // Display add form
 Route::get('/add/', function() {
 
@@ -76,7 +80,14 @@ Route::post('/add/', function() {
 
 
 
+
 });
+
+
+
+
+
+
 
 
 // Debug route: Read in the books.json file
@@ -100,3 +111,4 @@ Route::get('/data', function() {
 
 
 });
+
